@@ -1,0 +1,464 @@
+@charset "utf-8";
+@import url("programCSS.css");
+@import url("../webfonts/corbel/stylesheet.css");
+
+/* CSS Document */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+header {
+
+}
+h2 {
+    font-size: 35px;
+    color: #FF9900;
+    text-align: center;
+	font-family: "Bodoni MT";
+}
+p{
+    font-family: "Corbel";
+    font-size: 23px;
+}
+* {
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+h3{
+	font-family: "Corbel";
+}
+section p img {
+    width: 29px;
+    margin: 10px;
+    padding: 15px;
+    height: auto;
+}
+
+main section h3 {
+    font-size: 29px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    width: 1000px;
+}
+body {
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+	background-color: #FFCC00;
+    background-image: url(../medios/IMAGENES/03baja%20opacidad2.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+nav {
+    height: 60px;
+	width: 100%;
+    background-color: #CC3366;
+    text-align: center;
+    text-decoration: none;
+    
+}
+nav ul {
+    background-repeat: repeat-x;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-left: -20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    background-color: #CC3366;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li  {
+    width: 146px;
+    height: 31px;
+    display: inline-block;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #CC3366;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+}
+
+main section {
+    margin-bottom: 60px;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+}
+footer {
+    height: 100px;
+    background-color: #113245;
+    text-align: center;
+}
+footer h6 {
+    color: #E7E6E0;
+    font-size: 15px;
+    width: 50%;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+a{
+    color: #FF9900;
+    text-decoration: none;
+	text-transform:uppercase;
+	font-family: "Corbel";
+  }
+ a:visited{
+
+  }
+ a:hover{
+    color: #FFCC00;
+	font-weight: bolder;
+}
+main section h3 {
+}
+
+ a:link{
+    color: #FF9900;
+  }
+ a:active{
+
+  }
+h1{
+	width: 100%;
+	height: 100px;
+    font-size: 75px;
+    color: #FF9900;
+    text-align: center;
+    font-family: "Bodoni MT";
+    font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+header {
+	height: 130px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #CC3366;
+	background-image: url(url);
+}
+* {
+            box-sizing: content-box;
+        }
+
+        .columna {
+    float: left;
+    width: 33.33%;
+    padding-right: 5px;
+    flex: 33.33%;
+    text-align: center;
+    font-family: corbel;
+    font-style: oblique;
+		
+        }
+
+        .fila::after {
+    content: "";
+    clear: both;
+    display: table;
+        }
+
+        img {
+            /* Para que sea responsiva */
+            width: 100%;
+        }
+.grid {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.grid img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.grid-container {
+  	display: grid;
+	gap: 50px 50px;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.grid {
+	position: relative;
+	width: 100%;
+	transition: opacity 0.5s linear 1s;
+}
+.grid .item {
+	position: relative;
+	display: block;
+	padding: 0;
+	margin: 10px;
+	width: calc(33.333333%);
+}
+
+.grid .item-contenido {
+	position: relative;
+}
+.grid .item .img {
+	width: 100%;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+h2 {
+    font-size: 35px;
+    color: #CC3366;
+    text-align: center;
+    font-family: "Bodoni MT";
+}
+p {
+	font-family: "Corbel";
+	text-align: left;
+	font-size: 23px;
+}
+* {
+	height: auto;
+	webkit-box-sizing: border-box;
+	moz-box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0 auto;
+	box-sizing: border-box;
+}
+h3 {
+
+
+
+}
+h1 {
+	text-align: center;
+	width: 1000px;
+	height: 100px;
+	padding: 20px;
+	margin-bottom: 25px;
+	font-size: 60px;
+	font-family: "Bodoni MT";
+	font-variant: small-caps;
+	margin-top: 10px;
+}
+main section h3 {
+    font-size: 29px;
+    text-align: center;
+    font-family: Corbel;
+    font-style: oblique;
+}
+main {
+	padding: 20px;
+	width: 1000px;
+}
+body {
+	opacity: 1;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	background-image: url(" "img/03baja opacidad2.jpg"");
+	background-repeat: repeat-y;
+	background-size: cover;
+	height: auto;
+}
+nav {
+	height: 60px;
+	width: 100%;
+	background-color: #CC3366;
+	text-align: center;
+	text-decoration: none;
+}
+nav ul {
+	background-repeat: repeat-x;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-left: -20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	height: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	background-color: #CC3366;
+	text-align: center;
+	text-decoration: none;
+}
+nav ul li {
+	width: 146px;
+	height: 31px;
+	display: inline-block;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-color: #CC3366;
+	font-size: 17px;
+	text-align: center;
+	text-decoration: none;
+}
+main section {
+	margin-bottom: 60px;
+	color: #000000;
+	font-size: 22px;
+	text-align: center;
+}
+
+footer h6 {
+	color: #E7E6E0;
+	font-size: 15px;
+	width: 50%;
+	height: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+a{
+	color: #FF9900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Corbel";
+}
+a:visited{
+	
+}
+a:hover{
+	color: #FFCC00;
+	font-weight: bolder;
+}
+main section img {
+    width: 50%;
+    height: 50%;
+}
+main section h3 {
+    color: #FF9900;
+    font-family: corben;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+main section h3{
+	
+}
+a:link{
+	color: #FF9900;
+}
+a:active{
+	
+}
+.contenedor-img {
+	position: relative;}
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.9);
+	width: 100%;
+	height: 100vh;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.overlay.activo {
+	display: flex;
+}
+
+.overlay img {
+	max-width: 100%;
+}
+
+.overlay .descripcion {
+	display: block;
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 5px;
+	border-radius: 10px;
+	max-width: 50%;
+}
+
+.contenedor-img {
+	position: relative;
+}
+
+.overlay #btn-cerrar-popup {
+	background: none;
+	font-size: 20px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: -20px;
+	top: -20px;
+}
+
+footer  {
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 14px;}
+
+img{
+    padding-left: 4px;
+    padding-bottom: 0px;
+    padding-top: 39px;
+}
+.columna{
+    padding-left: 36px;
+}
+.videoconferencia{
+    width: 1200px;
+    padding-left: 0px;
+    margin-left: -10%;
+    -webkit-box-shadow: 10px 10px 37px;
+    box-shadow: 10px 10px 37px;
+	
+}
+.titu {
+    width: 100%;
+    height: 100px;
+}
+footer {
+    height: 100px;
+    background-color: #113245;
+    text-align: center;
+}
+footer h6 {
+    color: #E7E6E0;
+    font-size: 15px;
+    width: 50%;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

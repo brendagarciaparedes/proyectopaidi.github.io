@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Index</title>
+<link href="css/Estilo index.css" rel="stylesheet" type="text/css">
+	<link href="css/estilo galeria principal.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body> 
+<nav>
+  <ul> 
+    <li><a href="index.html" title="Incio">Inicio</a></li>
+     <li><a href="html/Nosotros.html" title="Nosotros">Nosotros</a></li>
+	 <li><a href="html/Que hacemos.html" title="Qué hacemos">¿Qué hacemos?</a></li>
+     <li><a href="html/programas.html" title="Programas">Programas</a></li>
+	 <li><a href="html/involucrate.html" title="Involúcrate">Involúcrate</a></li>
+	 <li><a href="html/contacto.html" title="Contacto">Contacto</a></li>
+  </ul> 
+</nav>
+<header></header>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="medios/IMAGENES/01.jpg" style="height: 700px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="medios/IMAGENES/02-1.jpg" style="height: 700px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="medios/IMAGENES/03-1.jpg" style="height: 700px">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="medios/IMAGENES/04-1.jpg" style="height: 700px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="medios/IMAGENES/05-1.jpg" style="height: 700px">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="medios/IMAGENES/07-1.jpg" style="height: 700px">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="medios/IMAGENES/01.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="medios/IMAGENES/02-1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="medios/IMAGENES/03-1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="medios/IMAGENES/04-1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor"src="medios/IMAGENES/05-1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="medios/IMAGENES/07-1.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<h1 style="height: 120px">Proyectos</h1>
+<div class="portada"><img src="medios/IMAGENES/09.jpg" height="614" class="foto">
+	<div class="carrusel">
+		<a href="html/Que hacemos.html">
+		   <img src="medios/IMAGENES/08.jpg" class="galeria"></a>
+		<a href="html/Que hacemos.html"><img src="medios/IMAGENES/09.jpg" class="galeria"></a>
+		<a href="html/Que hacemos.html"><img src="medios/IMAGENES/10.jpg" class="galeria"></a>
+	<a href="html/Que hacemos.html"><img src="medios/IMAGENES/08.jpg" class="galeria"></a>
+	</div>
+	</div>
+<footer>
+   <h6>ELABORADO POR PANI RAMIREZ YISELLE, GARCIA PAREDES BRENDA, HERNANDEZ RAMIREZ KATERINE, HERRERA PULIDO LUIS FELIPE</h6>
+</footer>
+</body>
+</html>
